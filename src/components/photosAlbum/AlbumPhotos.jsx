@@ -9,8 +9,11 @@ export const AlbumPhotos = ({ data }) => {
     }
     
     return(
-        <div onClick={handleOpenPhoto} className='photoCube'>
-            <img src={data.thumbnailUrl}/>
+        <div className="photoArea">
+            <div onClick={handleOpenPhoto} className='photoCube'>
+                <img src={data.thumbnailUrl}/>
+            </div>
         </div>
+
     )
 }
