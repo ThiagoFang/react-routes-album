@@ -1,0 +1,12 @@
+.albumArea{
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.albumArea:hover{
+    background: #f0f0f0;
+    transform: scaleY(1.1);
+}
